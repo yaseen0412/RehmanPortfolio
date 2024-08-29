@@ -1,0 +1,343 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Dr. Rehaman Mohammed - Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<style>
+		/* Additional CSS for the circular image */
+		.circular-image {
+			width: 150px;
+			height: 150px;
+			border-radius: 50%;
+			object-fit: cover;
+			margin-bottom: 20px;
+		}
+
+		#banner-wrapper {
+			text-align: center;
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+
+		.box {
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		}
+
+		/* Hidden content */
+		.hidden {
+			display: none;
+		}
+
+		/* Show content */
+		.show {
+			display: block;
+		}
+
+		/* Center the More Info button */
+		#more-info-button-container {
+			text-align: center;
+			margin-top: 20px;
+		}
+
+		#more-info-button {
+			font-size: 1.5rem;
+			padding: 10px 20px;
+			width: auto;
+			/* Adjust width to fit content */
+			box-sizing: border-box;
+			display: inline-block;
+			transition: all 0.3s ease;
+		}
+
+		/* Animation for expanding and collapsing */
+		#profile-summary {
+			max-height: 0;
+			overflow: hidden;
+			transition: max-height 0.3s ease-out;
+		}
+
+		#profile-summary.show {
+			max-height: 1000px;
+		}
+
+		/* Optional: style for button active state */
+		#more-info-button.active {
+			background-color: #555;
+			color: #fff;
+		}
+
+		/* Footer styles */
+		#footer-wrapper {
+			background-color: #2c2c2c;
+			color: white;
+		}
+
+		footer {
+			text-align: center;
+			padding: 20px;
+		}
+
+		.widget.contact h3 {
+			color: white;
+			margin-bottom: 20px;
+		}
+
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+
+		ul li {
+			margin: 10px 0;
+		}
+
+		ul li a {
+			color: white;
+			text-decoration: none;
+		}
+
+		ul li a:hover {
+			text-decoration: underline;
+		}
+
+		#copyright {
+			margin-top: 20px;
+		}
+
+		#copyright ul.menu {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			text-align: center;
+		}
+
+		#copyright ul.menu li {
+			display: inline;
+			margin: 0 10px;
+		}
+
+		#copyright ul.menu li a {
+			color: white;
+			text-decoration: none;
+		}
+
+		#copyright ul.menu li a:hover {
+			text-decoration: underline;
+		}
+	</style>
+</head>
+
+<body class="is-preload homepage">
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<div id="header-wrapper">
+			<header id="header" class="container">
+				<!-- Logo -->
+				<div id="logo">
+					<h1><a href="index.html">Dr. Rehaman Mohammed</a></h1>
+				</div>
+			</header>
+		</div>
+
+		<!-- Banner -->
+		<div id="banner-wrapper">
+			<div id="banner" class="box container">
+				<div class="row">
+					<!-- Circular Image -->
+					<div class="col-12">
+						<img src="images/2.jpg" alt="Dr. Rehaman Mohammed" class="circular-image" />
+					</div>
+					<div class="col-12">
+						<h2>Hi. This is Rehaman.</h2>
+					</div>
+					<div id="more-info-button-container" class="col-12">
+						<a href="#" id="more-info-button" class="button large solid">More info</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Profile Summary -->
+		<div id="profile-summary" class="hidden">
+			<div class="container">
+				<h2>Profile Summary</h2>
+				<p>Dr. Rehaman Mohammed is a Global Career Counselor and Coach Expert Soft Skills Trainer with 12+ years
+					of experience and has mentored thousands of graduates in achieving their career aspirations. He was
+					a Training and Placement officer in MALLA REDDY GROUP OF INSTITUTIONS for over 10 years. He pursued
+					a Master's in Computing from the University of Wales, United Kingdom. He also completed an MBA from
+					JNTUH and recently was awarded a PhD in Management from Monad University, New Delhi.</p>
+
+				<h3>Professional Experience</h3>
+				<p><strong>Malla Reddy Group of Institutions</strong><br>Training and Placement Officer<br>Malla Reddy
+					Group of Institutions (Over 10 years)</p>
+				<ul>
+					<li>Spearheaded the training and placement department, successfully mentoring thousands of
+						graduates.</li>
+					<li>Developed and implemented comprehensive career counseling programs tailored to individual
+						student needs.</li>
+					<li>Established strong connections with industry leaders and facilitated numerous successful
+						placements.</li>
+				</ul>
+
+				<h3>Life Skills, Career Counselling, and Research Guidance</h3>
+				<ul>
+					<li>Career Counseling and Coaching</li>
+					<li>Soft Skills Training</li>
+					<li>Student Mentorship and Guidance</li>
+					<li>Training and Development Programs</li>
+					<li>Educational Leadership and Management</li>
+				</ul>
+
+				<h3>Research and Publications</h3>
+				<p>Dr. Rehaman Mohammed has contributed significantly to academic research in management and soft skills
+					training. His work is published on various platforms, including ResearchGate.</p>
+				<p><a href="https://www.researchgate.net/profile/Rehaman-Pasha-Mohammed" target="_blank">View my
+						ResearchGate Profile</a></p>
+			</div>
+		</div>
+
+		<!-- Features -->
+		<div id="features-wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-4 col-12-medium">
+						<section class="box feature">
+							<a href="#" class="image featured prevent-scroll"><img src="images/lifeskill.jpg"
+									alt="" /></a>
+							<div class="inner">
+								<header>
+									<h2>Life Skills Development</h2>
+									<p>Empowering individuals with essential life skills is a cornerstone of personal
+										and professional growth. My approach to life skills development focuses on
+										practical strategies and tools to enhance areas such as:</p>
+									<h6>Effective Communication:</h6>
+									<p>Mastering verbal and non-verbal communication to foster better interpersonal
+										relationships.</p>
+									<h6>Time Management:</h6>
+									<p>Techniques to improve productivity and balance daily responsibilities.</p>
+									<h6>Financial Literacy:</h6>
+									<p>Basic principles of budgeting, saving, and investing to ensure financial
+										stability.</p>
+								</header>
+							</div>
+						</section>
+					</div>
+					<div class="col-4 col-12-medium">
+						<section class="box feature">
+							<a href="#" class="image featured prevent-scroll"><img src="images/cc.png" alt="" /></a>
+							<div class="inner">
+								<header>
+									<h2>Career Counseling</h2>
+									<p>Guiding individuals through their career journey involves personalized support
+										and strategic planning. My career counseling services include:</p>
+									<h6>Career Assessment:</h6>
+									<p>Evaluating skills, interests, and values to identify suitable career paths.</p>
+									<h6>Resume and Cover Letter Writing:</h6>
+									<p>Crafting professional documents that highlight strengths and achievements.</p>
+									<h6>Job Search Strategies:</h6>
+									<p>Basic principles of budgeting, saving, and investing to ensure financial
+										stability.</p>
+								</header>
+							</div>
+						</section>
+					</div>
+					<div class="col-4 col-12-medium">
+						<section class="box feature">
+							<a href="#" class="image featured prevent-scroll"><img src="images/rg.png" alt="" /></a>
+							<div class="inner">
+								<header>
+									<h2>Research Guidance</h2>
+									<p>Supporting research endeavors requires a comprehensive understanding of
+										methodology and analysis. My research guidance services encompass:</p>
+									<h6>Research Design:</h6>
+									<p>Assisting in formulating research questions, hypotheses, and methodologies.</p>
+									<h6>Data Collection and Analysis:</h6>
+									<p>Techniques for gathering and interpreting data to support research findings.</p>
+									<h6>Academic Writing:</h6>
+									<p>Providing feedback on research papers, theses, and dissertations to ensure
+										clarity and coherence.</p>
+								</header>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<div id="footer-wrapper">
+			<footer id="footer" class="container">
+				<div class="col-12">
+					<section class="widget contact last">
+						<h3>Contact Us</h3>
+						<ul>
+							<li><a href="https://youtube.com/@rehamanmohammed?si=kUAbBGykl-bfK9ce"
+									class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
+							<li><a href="https://www.facebook.com/share/q9mU96jNWQxG5szP/?mibextid=qi2Omg"
+									class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/mohammed.rehaman?igsh=MXJtNm85dnRrOXFtZw=="
+									class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://www.linkedin.com/in/rehamanmohammed?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+									class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						</ul>
+						<p>Medchal Klr Venture<br />Hyderabad, 50001<br />(91) 88012-79471</p>
+					</section>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<div id="copyright">
+							<ul class="menu">
+								<li>&copy; Dr. Rehaman Mohammed</li>
+								<li>Design: <a href="https://html5up.net">CC-Brothers</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('#more-info-button').on('click', function () {
+				var $button = $(this);
+				var $profileSummary = $('#profile-summary');
+
+				if ($profileSummary.hasClass('show')) {
+					$profileSummary.removeClass('show');
+					$button.text('More info'); // Change text back to "More info"
+				} else {
+					$profileSummary.addClass('show');
+					$button.text('Less info'); // Change text to "Less info"
+				}
+			});
+
+			// Prevent default behavior of anchor tags with href="#"
+			$('a[href="#"]').on('click', function (e) {
+				e.preventDefault();
+			});
+		});
+	</script>
+</body>
+
+</html>
